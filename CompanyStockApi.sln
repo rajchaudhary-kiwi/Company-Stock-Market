@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyStockApi", "CompanyStockApi\CompanyStockApi.csproj", "{25F7E08E-149E-4D06-93D3-1BA20ABCE0E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{2F16BFF9-EE35-4040-93F3-DA65B268797C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{8B719AE5-C0A5-4509-9B7C-608372787B3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{03973A77-BD4A-49C2-8557-36EBF87C726D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockMarketPriceUpdateDoWorker", "StockMarketPriceUpdateDoWorker\StockMarketPriceUpdateDoWorker.csproj", "{7A6AA76C-F122-4739-98F6-54871909D2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerServiceApptoUpdateMarketPrice", "WorkerServiceApptoUpdateMarketPrice\WorkerServiceApptoUpdateMarketPrice.csproj", "{83B13977-EC88-471A-9594-C99053A5BC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F7E08E-149E-4D06-93D3-1BA20ABCE0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F7E08E-149E-4D06-93D3-1BA20ABCE0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F7E08E-149E-4D06-93D3-1BA20ABCE0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F7E08E-149E-4D06-93D3-1BA20ABCE0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F16BFF9-EE35-4040-93F3-DA65B268797C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F16BFF9-EE35-4040-93F3-DA65B268797C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F16BFF9-EE35-4040-93F3-DA65B268797C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F16BFF9-EE35-4040-93F3-DA65B268797C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B719AE5-C0A5-4509-9B7C-608372787B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B719AE5-C0A5-4509-9B7C-608372787B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B719AE5-C0A5-4509-9B7C-608372787B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B719AE5-C0A5-4509-9B7C-608372787B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03973A77-BD4A-49C2-8557-36EBF87C726D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03973A77-BD4A-49C2-8557-36EBF87C726D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03973A77-BD4A-49C2-8557-36EBF87C726D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03973A77-BD4A-49C2-8557-36EBF87C726D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6AA76C-F122-4739-98F6-54871909D2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6AA76C-F122-4739-98F6-54871909D2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6AA76C-F122-4739-98F6-54871909D2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6AA76C-F122-4739-98F6-54871909D2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B13977-EC88-471A-9594-C99053A5BC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B13977-EC88-471A-9594-C99053A5BC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B13977-EC88-471A-9594-C99053A5BC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B13977-EC88-471A-9594-C99053A5BC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CC57911-A9ED-4EE3-8DBA-40240AE47C10}
+	EndGlobalSection
+EndGlobal
